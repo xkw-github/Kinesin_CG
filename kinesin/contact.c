@@ -11,8 +11,8 @@ int main()
 {
 	int i,j,m,n,Q1,Q2;
 	int list1[num1][2];
-	int list2[num1][2];
-	double sigma1[num2];
+	int list2[num2][2];
+	double sigma1[num1];
 	double sigma2[num2];
 	double coor[res][3];
 	double X,dist;
