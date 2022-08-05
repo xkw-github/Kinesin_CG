@@ -7,8 +7,8 @@ cp phi.27839.pdb.sb/phi.27839.pdb.top input.top
 gcc -lm transfer.c 
 ./a.out > pair
 
-awk '{if(($2-$1)>3) print $0}' pair > tem
-mv tem pair
+#awk '{if(($2-$1)>3) print $0}' pair > tem
+#mv tem pair
 
 awk '{printf "%6d%7d\n",$1,$2}' pair > ex
 
